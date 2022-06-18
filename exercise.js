@@ -16,10 +16,19 @@
 
 // console.log(`days in years of old is: ${daysOfAge(26)}`);
 
-for (let age = 12;age<30;age=age+1){
-    console.log(age)
-    if(age % 26==0){
-        console.log(`we are in the same age beacause your age is:\n ${age}`);
-        break;
-    }
+// for (let age = 12;age<30;age=age+1){
+//     console.log(age)
+//     if(age % 26==0){
+//         console.log(`we are in the same age beacause your age is:\n ${age}`);
+//         break;
+//     }
+// }
+
+// triangle
+for (let i = 0; i < 5; i++) {
+  x = " ";
+  for (j = 0; j <= i; j++) {
+    x += j + "";
+  }
+  console.log("#" + x);
 }
