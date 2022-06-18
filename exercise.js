@@ -35,7 +35,15 @@
 
 // **functions
 // function to display square
-const square = function (x) {
-  return x * x;
+// const square = function (x) {
+//   return x * x;
+// };
+// console.log(square(4));
+
+// fuction for greetings
+
+const greet = (name) => {
+  return `hello ${name}!`;
 };
-console.log(square(4));
+console.log(greet("Claude"));
+
