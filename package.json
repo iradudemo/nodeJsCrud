@@ -4,7 +4,7 @@
   "description": "for add delete update and read data",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Claude",
   "license": "ISC",
