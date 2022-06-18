@@ -25,10 +25,17 @@
 // }
 
 // triangle
-for (let i = 0; i < 5; i++) {
-  x = " ";
-  for (j = 0; j <= i; j++) {
-    x += j + "";
-  }
-  console.log("#" + x);
-}
+// for (let i = 0; i < 5; i++) {
+//   x = " ";
+//   for (j = 0; j <= i; j++) {
+//     x += j + "";
+//   }
+//   console.log("#" + x);
+// }
+
+// **functions
+// function to display square
+const square = function (x) {
+  return x * x;
+};
+console.log(square(4));
